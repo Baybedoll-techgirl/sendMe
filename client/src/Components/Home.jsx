@@ -1,8 +1,13 @@
+import Header from './Header/Header'
+
+
+
+
 const Home = () => {
     return (
       <div>
 <h2>
-    This is the Home page
+    <Header />
 </h2>
 
       </div>  

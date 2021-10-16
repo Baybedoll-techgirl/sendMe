@@ -1,29 +1,17 @@
-// import Header from './Header/Header'
-// import FullCalendar from "@fullcalendar/react";
-// import dayGridPlugin from "@fullcalendar/daygrid";
-// import timeGridPlugin from "@fullcalendar/timegrid";
+// Render Prop
 import React, { useState } from 'react';
-import SignUp from "./signUp"
-import ReactDOM from 'react-dom';
-import Popup from 'reactjs-popup'
-import 'reactjs-popup/dist/index.css'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-// import Calendar from '' 
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
-function HighPoint () {
-  
+const SignUp = () => {
   const [open, setOpen] = useState(false);
   const closeModal = () => setOpen(false);
-  
-  return (
+return (
   <div>
-   
-   <button type='button' className='button'onClick={() => setOpen(o => !o)} >
-      Sign up here
-    </button>
-     
-    <Popup open={open} closeOnDocumentClick onClose={closeModal}>
     
+    <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+    <div className='modal'>
     <h1>Any place in your app!</h1>
     <Formik
       initialValues={{ name: '', email: ''}}
@@ -54,29 +42,16 @@ function HighPoint () {
           <button type="submit" disabled={isSubmitting}>
             Submit
           </button>
-          <button onClick={closeModal}>Close</button>
         </Form>
       )}
     </Formik>
-         
-     
-      </Popup>
-   
-    </div>
-  )}
-
-// const HighPoint = () => {
-//     return (
       
-//       <div>
+      
+      </div>   
+      </Popup>
+         
+    </div>
+)
+ };
 
-//   <sidebar>
-// <h2>
-//     This is the HighPoint 
-// </h2>
-// </sidebar>
-//       </div>  
-//     )
-// }
-
-export default HighPoint;
+export default SignUp;
