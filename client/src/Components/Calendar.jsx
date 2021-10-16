@@ -5,7 +5,7 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import AddEventModal from "./AddEventModal";
 import axios from "axios";
 import moment from "moment";
-import { Stripe } from "./Stripe";
+// import { Stripe } from "./Stripe";
 import Button from "react-bootstrap/Button";
 
 export default function Calendar() {
@@ -75,9 +75,7 @@ export default function Calendar() {
           datesSet={(date) => handleDatesSet(date)}
         />
       </div>
-      <div>
-        <Stripe price={5} />
-      </div>
+      
       <AddEventModal
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}

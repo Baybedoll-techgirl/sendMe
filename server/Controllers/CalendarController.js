@@ -17,5 +17,8 @@ router.get("/get-events", async (req, res) => {
     
     res.send(event);
 })
+router.get('/locations/:id', (req, res) => {
+    console.log(req.params.id)
+})
 
 module.exports = router;
