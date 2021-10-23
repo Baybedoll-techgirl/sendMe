@@ -32,6 +32,13 @@ export default function AddEventModal ({isOpen, onClose, onEventAdded}) {
                     <label>End Date</label>
                     <Datetime value={end} onChange={date => setEnd(date)} />
                 </div>
+                <div>
+                <select placeholder="Please Select" name="" id="">
+                    <option value="">location1</option>
+                    <option value="">location1</option>
+                    <option value="">location1</option>
+                </select>
+                </div>
                 <button>Add event</button>
             </form>
         </Modal>

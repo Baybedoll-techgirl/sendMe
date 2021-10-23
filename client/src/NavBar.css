@@ -1,0 +1,19 @@
+.bg-myColor{
+    background-color: rgb(228, 100, 26) ;
+}
+.content{
+    margin-top: 60px;
+    padding: 12px;
+    height: 100px
+}
+.logo{
+    margin-left: 30px;
+}
+.stripe{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.nav{
+    margin-left: 30px;
+}
