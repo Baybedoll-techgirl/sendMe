@@ -19,6 +19,7 @@ mongoose.connection.on('connected', () =>{
 
 
 app.use('/api/calendar', require('./Controllers/CalendarController'));
+app.use("/api/volunteer", require("./Controllers/VolunteerController"))
 
 app.post("/payment",  (req, res) => {
     const body ={

@@ -1,12 +1,11 @@
-const StnMtn = () => {
-    return (
-      <div>
-<h2>
-    This is the StnMtn 
-</h2>
+import Location from "./Locations";
 
-      </div>  
-    )
-}
+const StnMtn = () => {
+  return (
+    <div>
+      <Location location_url="Stone Mountain P&R" />
+    </div>
+  );
+};
 
 export default StnMtn;

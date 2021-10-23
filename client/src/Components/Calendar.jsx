@@ -46,6 +46,8 @@ export default function Calendar() {
         moment(data.end).toISOString()
     );
 
+    console.log(response.data, "res")
+
     setEvents(response.data);
   }
 
@@ -70,7 +72,7 @@ export default function Calendar() {
           dayHeaderContent={EventContent}
           // eventContent={EventContent}
           plugins={[dayGridPlugin, timeGridPlugin]}
-          initialView="dayGridWeek"
+          initialView="dayGridMonth"
           eventAdd={(event) => handleEventAdd(event)}
           datesSet={(date) => handleDatesSet(date)}
         />

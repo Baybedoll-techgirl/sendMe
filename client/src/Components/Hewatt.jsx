@@ -1,12 +1,11 @@
-const Hewatt = () => {
-    return (
-      <div>
-<h2>
-    This is the Hewatt 
-</h2>
+import Location from "./Locations";
 
-      </div>  
-    )
-}
+const Hewatt = () => {
+  return (
+    <div>
+      <Location location_url="Hewatt Road" />
+    </div>
+  );
+};
 
 export default Hewatt;
