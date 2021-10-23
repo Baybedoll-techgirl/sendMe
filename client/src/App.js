@@ -1,7 +1,6 @@
 import React from 'react';
 import 'react-bootstrap/dist/react-bootstrap.min.js';
 import Modal from 'react-modal';
-import Calendar from './Components/Calendar';
 import { NavBar } from './Components/NavBar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // import signUp from './Components/Locations';
@@ -10,7 +9,6 @@ import Home from './Components/Home'
 import StnMtn from './Components/StnMtn'
 import Hewatt from './Components/Hewatt'
 import MyEvents from './Components/MyEvents';
-import Location from './Components/Locations';
 
 Modal.setAppElement('#root');
 

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "react-pro-sidebar/dist/css/styles.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Header.css'
 import {
   ProSidebar,
@@ -12,7 +11,7 @@ import {
   } from 'react-pro-sidebar'
 
   import { FaList, FaRegHeart } from "react-icons/fa";
-  import { FiHome, FiLogOut, FiArrowLeftCircle, FiArrowRightCircle, FiCalendar } from "react-icons/fi";
+  import {  FiLogOut, FiArrowLeftCircle, FiArrowRightCircle, FiCalendar } from "react-icons/fi";
   import { RiPencilLine } from "react-icons/ri";
   import { BiCog } from "react-icons/bi";
 

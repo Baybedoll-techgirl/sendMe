@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import { Nav, Navbar, NavDropdown, Button } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "../NavBar.css";
 import logo from "../SendMeLogo.gif";
 import { Stripe } from "./Stripe";
-import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
@@ -28,7 +26,7 @@ export function NavBar() {
     <div className="NavBar">
       <Navbar bg="myColor" variant="dark" sticky="top:" expand="sm">
         <Navbar.Brand as={Link} to="/">
-          <img className="logo" src={logo} width="100px" height="relative" />{" "}
+          <img className="logo" alt="volunteer logo" src={logo} width="100px" height="relative" />{" "}
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>

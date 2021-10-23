@@ -3,15 +3,11 @@
 // import dayGridPlugin from "@fullcalendar/daygrid";
 // import timeGridPlugin from "@fullcalendar/timegrid";
 import React, { useEffect, useState } from "react";
-import SignUp from "./signUp";
-import ReactDOM from "react-dom";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
-import { Formik, Form, Field, ErrorMessage } from "formik";
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
 import axios from "axios";
 import moment from "moment";
-// import Calendar from ''
 
 function Location({ location_url }) {
   const user_details = JSON.parse(localStorage.getItem("user_details"));
