@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div >
+    <div style="margin: 30px 20px 10px 20px">
       <h2>Welcome to Send Me</h2>
 
       <p>
