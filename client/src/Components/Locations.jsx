@@ -49,7 +49,7 @@ function Location({ location_url }) {
           {events.map((item) => (
             <Col key={item._id}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src="/sendmelogo.jpg" />
                 <Card.Body>
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>{item.location}</Card.Text>
