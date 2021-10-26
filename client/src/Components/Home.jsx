@@ -1,6 +1,15 @@
+import React, {useEffect, useState} from 'react';
+
+function Home() {
+  const styleObj = {
+      fontSize: 14,
+      color: "#4a54f1",
+      textAlign: "center",
+      paddingTop: "100px"
+  }}
 const Home = () => {
   return (
-    <div >
+    <div style={styleObj}>
       <h2>Welcome to Send Me</h2>
 
       <p>
