@@ -1,13 +1,17 @@
 import React, {useEffect, useState} from 'react';
 
-function format() {
-  const styleObj = {
-      fontSize: 14,
-      color: "#4a54f1",
-      textAlign: "center",
-      paddingTop: "100px"
-  }}
+  
+  
 const Home = () => {
+  const styleObj = {
+    fontSize: 14,
+    // color: "#4a54f1",
+    textAlign: "left-align",
+    paddingTop: "50px",
+    paddingLeft: "30px",
+    paddingRight:"20px"
+  
+  }
   return (
     <div style={styleObj}>
       <h2>Welcome to Send Me</h2>
@@ -24,7 +28,8 @@ Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. In massa tempo
 Tincidunt augue interdum velit euismod in. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. At in tellus integer feugiat scelerisque varius morbi enim nunc. Sed nisi lacus sed viverra tellus. Sed blandit libero volutpat sed cras ornare. Enim eu turpis egestas pretium. Diam ut venenatis tellus in metus vulputate. Vulputate eu scelerisque felis imperdiet. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Id neque aliquam vestibulum morbi blandit cursus risus at. Interdum consectetur libero id faucibus nisl tincidunt eget. Et netus et malesuada fames. Tincidunt dui ut ornare lectus sit amet est. Adipiscing commodo elit at imperdiet dui accumsan.
       </p>
     </div>
+
   );
 };
-
+  
 export default Home;
