@@ -1,36 +1,38 @@
 
-<h1 align="center">Code Quiz</h1>
+<h1 align="center">Send Me</h1>
 
-<p align="center">Javacript front end project that utilizes an API from Quiz API. The questions are Javascript based and are multiple choice. </p>
+<p align="center">Capstone project using React for the front end and express, and mongoDB for the backend. This project uses CRUD operations to create, update, and remove events. 
+The sign up/login routes use local storage in the browser to store session data. I choose to use this as 'authentication' until the app matures and then plan on using an OAuth provider for full authentiction. </p>
 
 ## Links
 
-- [Repo](https://github.com/Baybedoll-techgirl/LCJT	"<project-name> Repo")
+- [Repo](https://github.com/Baybedoll-techgirl/sendme	"<project-name> Repo")
 
-- [Live](https://baybedoll-techgirl.github.io/LCJT/ "Live View")
+- [Live](https://sendmevolunteer.herokuapp.com/ "Live View")
 
-- [API](https://quizapi.io "API")
+
 
 
 ## Built With
 
+- React Native
 - JavaScript
-- HTML
 - CSS
+- Express
+- Moment
+- MongoDB
+- Axios
+
+
+
+
 
 
 ## Contributors
 
-**Tarita Jacksonn**
+**Tarita Jackson**
 
 - [Profile](https://github.com/Baybedoll-techgirl "Tarita Jackson")
 - [Email](mailto:ritajack@gmail.com?subject=Hi "Hi!")
 
-**Laura Medina**
 
-- [Profile](https://github.com/lcmedina "Laura Medina")
-
-
-**Chris Johnson**
-
-- [Profile](https://github.com/johnsonce3101 "Chris Johnson")
