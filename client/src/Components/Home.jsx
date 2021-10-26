@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-function Home() {
+function format() {
   const styleObj = {
       fontSize: 14,
       color: "#4a54f1",
